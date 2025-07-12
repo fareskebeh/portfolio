@@ -22,18 +22,18 @@ const About = () => {
         <div className="py-2 space-y-4 ">
           <p className="text-green-400"># About Me</p>
           <p className="text-neutral-300">
-            I’m Fares Kebbeh — a full-stack engineer forged in discipline and
+            - I’m Fares Kebbeh — a full-stack engineer forged in discipline and
             relentless grind. I build tools that work, built to last, and
             designed to dominate.
           </p>{" "}
           <p className="text-neutral-300">
             {" "}
-            Rooted in real-world struggle, my code carries weight, precision,
+            - Rooted in real-world struggle, my code carries weight, precision,
             and purpose. No flashy gimmicks, just raw skill and impact.
           </p>{" "}
           <p className="text-neutral-300">
             {" "}
-            Welcome to my world — where code is survival, and every line counts.
+            - Welcome to my world — where code is survival, and every line counts.
           </p>
         </div>
       </div>
