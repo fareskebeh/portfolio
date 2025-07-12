@@ -9,3 +9,7 @@
   --font-jetbrains: "jetbrains";
   --text-xxs: 0.7rem;
 }
+
+body {
+  background: #000;
+}
