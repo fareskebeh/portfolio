@@ -1,8 +1,15 @@
+import Card from "@components/Card"
+import Container from "@components/Container"
+import Nav from "@components/Nav"
 
 const App = () => {
   return (
-    <div>
-      
+    <div className="font-jetbrains flex flex-col sm:flex-row h-screen">
+      <Nav/>
+      <div className="pt-12">
+        <Card/>
+        <Container/>
+      </div>
     </div>
   )
 }
