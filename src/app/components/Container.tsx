@@ -1,5 +1,5 @@
 import About from "@pages/About"
-
+import MyWork from "@pages/MyWork"
 
 const Container = () => {
   return (
@@ -7,8 +7,10 @@ const Container = () => {
         <div id="about">
           <About/>
         </div>
-        <div id="work">My Work</div>
-        <div id="contact">Contact Me</div>
+        <div id="work">
+          <MyWork/>
+        </div>
+        <div id="contact"></div>
     </div>
   )
 }
