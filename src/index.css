@@ -1,1 +1,10 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@font-face {
+  font-family: "jetbrains";
+  src: url(./assets/fonts/JetBrainsMono-VariableFont_wght.ttf);
+}
+
+@theme {
+  --font-jetbrains: "jetbrains";
+}
