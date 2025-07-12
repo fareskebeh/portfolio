@@ -7,4 +7,5 @@
 
 @theme {
   --font-jetbrains: "jetbrains";
+  --text-xxs: 0.7rem;
 }
