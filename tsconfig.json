@@ -8,7 +8,8 @@
     "baseUrl": "./src",
     "paths": {
       "@components/*":["app/components/*"],
-      "@pages/*":["app/pages/*"]
+      "@pages/*":["app/pages/*"],
+      "@icons/*":["assets/icons/*"]
     },
   }
 }
