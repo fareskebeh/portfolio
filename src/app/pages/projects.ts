@@ -5,7 +5,8 @@ type Project = {
     startDate: string,
     image: string,
     state: string,
-    link:string
+    link:string,
+    purpose: string
 }
 
 const projects:Project[] = [
@@ -16,16 +17,18 @@ const projects:Project[] = [
             startDate: "27-June-2025",
             image: "goldstreet",
             state: "Completed",
-            link: "https://github.com/fareskebeh/goldstreet"
+            link: "https://github.com/fareskebeh/goldstreet",
+            purpose: "prod",
         },
         {
             name: "Tutorme",
             description: "I'm currently building the frontend for a tutoring web app, the app contains a chat feature, so far my biggest project",
-            technologies: ["react","tailwind", "typescript"],
+            technologies: ["react","tailwind", "ts"],
             startDate: "18-June-2025",
             image: "tutorme",
             state: "In Progress..",
-            link: "https://github.com/fareskebeh/tutorme"
+            link: "https://github.com/fareskebeh/tutorme",
+            purpose: "prod"
         },
         {
             name: "Rigsy",
@@ -34,7 +37,8 @@ const projects:Project[] = [
             startDate: "17-May-2025",
             image: "rigsy",
             state: "Stopped",
-            link: "https://github.com/fareskebeh/ecom"
+            link: "https://github.com/fareskebeh/ecom",
+            purpose: "prod"
         },
         {
             name: "Blog app",
@@ -43,16 +47,19 @@ const projects:Project[] = [
             startDate: "08-April-2025",
             image: "blog",
             state: "In Progress..",
-            link: "https://github.com/fareskebeh/blog-app"
+            link: "https://github.com/fareskebeh/blog-app",
+            purpose: "prac"
+
         },
         {
             name: "Matrix Component",
             description: "a lightweight component that displays flickering 0s and 1s, made this project while meddling with JavaScript, you can install it from npm :)",
-            technologies: ["javascript"],
+            technologies: ["js"],
             startDate: "12-May-2025",
             image: "matrix",
             state: "Completed",
-            link: "https://github.com/fareskebeh/matrix-component"
+            link: "https://github.com/fareskebeh/matrix-component",
+            purpose: "prac"
         },
     ]
 
