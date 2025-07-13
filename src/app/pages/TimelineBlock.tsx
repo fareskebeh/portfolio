@@ -1,4 +1,10 @@
-import React from 'react'
+import djangoIcon from "@icons/django.svg"
+import jsIcon from "@icons/js.svg"
+import tsIcon from "@icons/ts.svg"
+import tailwindIcon from "@icons/tailwind.svg"
+import supabaseIcon from "@icons/supabase.svg"
+import reactIcon from "@icons/react.svg"
+import pyIcon from "@icons/python.svg"
 
 type Props = {
     name: string,
